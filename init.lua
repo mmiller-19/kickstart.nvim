@@ -419,6 +419,8 @@ require('lazy').setup({
           ['ui-select'] = {
             require('telescope.themes').get_dropdown(),
           },
+          enable_previewer = true,
+          enable_live_previewer = true,
         },
       }
 
